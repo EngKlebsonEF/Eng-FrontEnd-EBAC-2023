@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body {
+            background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQDw8PEhAQEBAPDw8QEA8QDw8PEBAPFREWFhUVExUYHSggGBolGxUVITIiJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQGi0lHx0tLS0tLS0tKy0tLS0tLTItLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tLS0tLS0tLS0tK//AABEIAKoBKQMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAAAQIDBAUGB//EADsQAAIBAgMFBQYFAwMFAAAAAAABAgMREiExBEFRYXEFgZHB0RMiMqGx4UJSYnLwgrLxI5LSBhSis8L/xAAZAQEBAQEBAQAAAAAAAAAAAAABAAIDBQT/xAAdEQEBAQADAQEBAQAAAAAAAAAAARECITESQWED/9oADAMBAAIRAxEAPwD6LDZ1jlK+LKKinpDjb5F0qmDO4UtnUE7ZXbb5t72HssWp9NfDJizZduxOx0IyuYaexpaE1JxDHTjbPW24FMKtyxMG9SY0yNxsCl9gjNO6vmtSinXTk4p5pK7tlv38S2MUm2lZvXmNmCXfFgyNxmWjGiIyKQyIwJjQhgjAQwJjIjJGMQEUgEMEBiGSAABIDEMCAACQASGSAABJ527b08Gn9bGiCS+6YqdrE7n1PkhqXDMjKzCVnwMG0U4ynTkpTvCTdoTag1haamr2aHjxlXLljW4NaDW0Wyb9fAIyvq7cl6kKmFZ6fV+pnE1RqX5dfQEr+voc727Wb03R9fQ2bPtCkRnLV6Wb6LzHB5ceZG/xeHy+5JA1E0xplNZXVlk8s+CLEGNamMimMyUhoiMkkNEUMGkgEhgjGIAJjuRGiRjEMiYCGCMBDJAAACABDJAAAkAACTzFWu4+9ot/qg9pN6K3OWXy1+hojTS3Z8dX4hHLLdu9D7HxZVHs29W3yenh6jVN3b4K3m/LwNNytSv7q1WcuCbzs/QlkZ9nhOzxaucsKTv7l8uhfDZ87vN/JdPUsUkpWzu99vMsuFMkZNpoqxHYlhZbVld2E42AZ3rXF38b+C/wWOX2Muzzyb4Nrvu/sXL5v5ILHSVZBEyCGZrUSJJkEMCmMimMCkNMiMikNEUMCkAhoEYxDAmAhkTGIARjEBIwACQGIYEAAEgAASefhO5Jq+RhU3G7dklvb8kXRblq7Lgklfr6H24+GVKpVvkss0m+O/Lk7PMtgrKy0+bZWoq+LerpNvx+hPEVMWIU6iVldXd7Le7akU+XiZtqoQlKM2k5wUlCVs4qVsVutgyfptWwzZbWaSu3ZIq2eJdKKkmt3DcwxTxl7Jq4oRnfKV5R6Pe+djoR48Tl7M4wlKmrJRlisrZKWf1xeB04suXq4eLEO5AaMOiYyKGgKY0RQwKQyKJATJIiNEUkMiNGSYxDAmNCAkYxARSASGCMBIZIAgACYABIAJgSePpKpJydRRVpNQwXaUePUmpW3lreduOaRlrUVJuf5MlZtXX4tP57vM9HNeb43Qa3Fhhg2t91zt9TRGp0+hnG5V9yirK7sSlOy0+hm9sr624XTQYrW2HDxZJSvpkuPoVwV1npw49fQlUnu45d28GtU+yjG7Stid3z6mqi00c7b9osr3S5t2I7DteW99E2vHQLtZnKS47CGimFVvdbq15XLFfj4L1M46yrLmXbu0aVCKnUmoRclFNpu7eiyL8PV94pUYvJxTXCysXHN7V3Ol0JXJopoq0V0RZF3M2NSpokiBJGa0kMiSAmhiGBSASGBMYgAncYkMiYxDQIDENEgAASMBDAgAAk8lVlZXWraS6vyWvcWQVkktxnUsUnwj7q/c9X5eJZGorHpWPNlLDa8eGa/bw7vQI1LEK9ZJYvy59VvX832Mlfa01dOyaunva5cCzReWNlestFryyXeU7ApWxymnKWd1GyS3JXbOLW7UUXZbrs27FWeCnFLFPBH3b2srWvJ7l/Fcfm45z/AElrqVatlfFJt5JJQxSfBZGCnse0SrOcq0lFRTVLck28m1q8tflx6GzULZt4pvJy3JcIrcic52lL9sPrMzuOub6y06a9olhinZ3ulivutL8R040lYoo009c+vEvu4/qX/kvU53tvjMQleIUdsTdiFSspJ26dHzW4y0tneK5nFbZenbiySMtCe40pma6ynT0739SGzwcU7u6cnbK1lfIcXryb9SyOiXIqU0NFUKl3azy3liM2NSpoaIoZlpIaENETJERmSYxIYE0NCGSAxDImAACMAAkBiGBAABJ4SCcUlfTfxe9+Jh23tWnRqU6cnLFWbVNKLd2rXvbRZrPma3IhOk3aSV3F3XNb1/OR6s97eRf4olWbzwzk9ywuKXTFbxMvsal3HBZfFHHNLK+a92+j+TR3KVNWT45lG3tKOLTBeXclmvC5QXj08f23sFZwnGLgp1ITUY2m9Fdtu6sl01aW89V2FhVKDjd4oxk5Sd5SulnJ+HTRFVKi5J1HrUXup/gp7o9d75vkiXYWVOMeCi+6UVLza7jVvWDjJL07kGZoSvUm+UF0yb8yycv5zKtlfvVH+tf+uJxrvb43xdkRc2ytNsvpwsc252qq0VrmpfmWv3XUns918Vv3LTv4CqvOxopLIDJ2jONsyylUIyhw8Hp9jPKpZ20fB+XEMO423+Lm180kW33GCntKcrX3J/3fY2QYWNcbq5DRGLJGHRXR2lSlONmnBpNtZO/A0IgiSK/wzUhiGZKSGiKGDSQxACSASGgJjQgIpIBXHYEEMEBIDQgAmAASfPdnqJq90+jua4TRgbpPXBfnhuQbhulbpN/S562PHldKM7Nrc7tea8+/kYpTVSph/BTacv1VNYx6LJvnh4NHN7TVSdNxhWqQkneMlHFZror27yrs6vKNOK1tdPFCcZYr+85PO7vfPfcsH269ethk47neUfH3l4u/fyM+w17YP1KdPvpzdvli8Dn9qdpunTlUdObVNY7wWJKyz1tqrrK+otmnKdH2sY2tN1ViyeBvHp+yb8R+Lms/Xb0ntr5InscW3U/f/wDEV5HP2KMk/efgvNnV2Nq0nf8AHPfbR28jk7cbrTeMUrtK7SV8rt7kXNmdU1KzcVZNOKa37pE6krGLHaVFZyNcTLs6NMpJGaYk2Ye0JxcXe1vCz5PcydWvnZZvh68BQ2W7vLN7uC6LzKC3eo87sXtv+4xNv2ahaOJWm25X97krZXz4nr9nldIyT2VXbtuXmW7NK2Rcro/z4/LciSIRJo5V9ESQ0RRJGWokNCQwKSGRuMCkhoURgTQxDAmgACJjEMEBiGSAAAEwACT5knKngSg5qTSvG3ure5clyN8IX3q3LMoq7TGE4RlJRxKVnJpXeWWfItU4vOMo35NNPqj2fZ48adFWpri/G30M72eMHjSST+N8vzd2/l0FtO1WaTyb04Poy6jVUlm1h5736B80bLVW07Nji+fur+p4b/MfZlHDGcWslJR8IRi/7WSjVUZQp3unK8XqrJN2vyaRr2W2OouDi/8Ac5PzK7mGSazUqqSSeqvF83F2v8r95Z2fVxRv+H2lW36v9WWfT6lG0bPjqSj+B2l+5/DJdMo343NHZ9K1NWzu5PLTOTepzrU9dOlWCtNafLeYJxks28uC9f8ABh2jtNKSgs21e0dbeXVnNu889dbs/bZyVTHSlSwTkouUovHBaTTT0ZfFynpkuO99F5mPZpXs5Wy0ivhXqdKnUQXG+N1ZRoqKyLkitVESjURh1mJpalMo2dx0qt3JZL3rRet8l8y2cLrXwyCr1ZSldFikY6WT9czViMNyp3JIwbRtVtA2baG9QX3Nx0UhpFcKiZajLcMYkNE0khkUSM0mMQATGIZI0NCQ0BAxDJAAACABDJPndRWknyl5F2FNZpPqkyNZfD18mFJnsPGcjtfYKc1h9nC82or3I3zzbWWqSb7jT2RsipRUVf3fdb1llo89bqz7y+axVOUFb+qWb+WH/czTBWkuE1b+pZr5X8EdPu5jPzN0tqpY4Wyd8081Z7mjibD2s3tVTZ5LDNU1KV5JOSTUbxt3fa+XfqQ3rw3P0PMdo9kUam2RrqWHaoUsmneUYXesb6PE1zzDhmXTy6ehdnKEm7pSw20jaWVrdcJq2Sp/pU/2RfyOZsinOMouyla3C0tzXLeaez6c3Sh7SKjaMVgTxLKK+Lj00ONnTfGrK9RyXu6fm/4rf106mWhsUYP9UneTebb+p0adPE7u7S03DwZ5HOtfO9nCjlkvHItpxejfgXUHkOcV/gy6SCNJfzMcqctFv+gs4llGrfN7/oYbmKqEXaV9HOXydvIsVWUdc4/m4fu9S7Z2mv6p/wB7LsIWtTj059eu45maXaLeRo22OHRXjvitY9OK5eHAWybHGWeTT0YOd+rcg2aaebOhBxehW9hW4reyyWhl0ksabW0LadYxJTQ8bAzk6kZpk0cqO0WNFDbEzOOk5xuGQhUTJoy6Q0MQwJoYkMkCSEAExiGiQYkMCRoAQAXgqmnevqUzko3b0SbfRF09O9fUzbf8P9VNd2NHsPGpUU7K+r96XJvNru07jVON45a6r9yd18zPDU0Mt/VDVZNJrekzFLsmlVrR2mSftIRwwkpSVo57lk9XqTofDL91T+9nRiFtnjUmsqi4O+9b+K4NeZKnVxaPJ3z4Weff9wrnh/8AoXaak+1u1YynOUYVZYYylKUY+/b3U9MsjM7hkfRoWSyV+mhXFNvcumbND0KqWpyrpiVGOfHr6GxGSPxGuBmt8Tavl3sUqQ6e/qWma1Ix7I2orm2/GTZr9srFUfgXQx12F9G/MWOWKRupRUc13rc/ucvZNTegXG/rVGun/M0+Y/bIwS+OPOMr87WsaIma6TkudREHnuHFFsUZPrJOje5jrbO46bjtPQx1dS1nlxjPsVaejOpCszLSWZpksgrXDZF8ayLIyTOHt02qlJJtJuV7PXJnQ2RhY1x57cbkMSGjLqBiGBMaEMkAACQQxIYF/9k=');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+		<h1>Área de Cadastro</h1>
+	</header>
+
+	<main>
+		<form>
+			<b><p><label for="nome">Nome:</label></p></b>
+			<input type="text" id="nome" name="nome" required>
+            <br />
+			<b><p><label for="email">Email:</label></p></b>
+			<input type="email" id="email" name="email" required>
+            <br />
+			<b><p><label for="senha">Senha:</label></p></b>
+			<input type="password" id="senha" name="senha" required>
+            <br />
+			<b><p><label for="confirmar_senha">Confirmar Senha:</label></p></b>
+			<input type="password" id="confirmar_senha" name="confirmar_senha" required>
+            <br />
+			<b><p><label for="telefone">Telefone:</label></p></b>
+			<input type="tel" id="telefone" name="telefone" required>
+            <br />
+			<b><p><input type="submit" value="Cadastrar"></p></b>
+		</form>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Todos os direitos reservados.</p>
+	</footer>
+</body>
+</html>
